@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> 3초 뒤 네이버가 열립니다. </h1>
+    <script>
+        console.log("로그")
+        setTimeout(function() {
+            console.log("예");
+        }, 3000);
+        window.open("https://www.naver.com/");
+        delay();
+        window.close();
+    </script>
+</body>
+</html>
